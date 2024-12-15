@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+
+
+.instruction-list {
+
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    direction: rtl;
+    padding: 0 1rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transform-origin: bottom;
+    transition:transform 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+
+
+info-card {
+    margin: 0 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+

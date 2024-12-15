@@ -1,0 +1,43 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+.info-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5%;
+    gap: 5%;
+    background-color: #555555;
+    width: 90%;
+    height: 80%;
+
+
+    .icon-container {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+    }
+
+    .text-container {
+        border-radius: 28px;
+        width: 60%;
+        height: 80%;
+        padding: auto;
+        text-align: center;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #f0f0f0;
+        font-size: 1rem;
+        overflow: hidden;
+        
+        p{
+            overflow-wrap: break-word;
+        }
+    }
+}

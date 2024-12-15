@@ -1,0 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+.error-message{
+    position: absolute;
+    padding: 0 5%;
+    display: none;
+    justify-content:start;
+    gap: 3%;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    min-height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 28px;
+    overflow: hidden;
+    background-color: #FF7272;
+    border: 1px solid #ff16165f;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}

@@ -1,0 +1,6 @@
+D:\cours\middleware\middleware\middlewareServers\SharedModels\bin\Debug\SharedModels.dll
+D:\cours\middleware\middleware\middlewareServers\SharedModels\bin\Debug\SharedModels.pdb
+D:\cours\middleware\middleware\middlewareServers\SharedModels\obj\Debug\SharedModels.csproj.AssemblyReference.cache
+D:\cours\middleware\middleware\middlewareServers\SharedModels\obj\Debug\SharedModels.csproj.CoreCompileInputs.cache
+D:\cours\middleware\middleware\middlewareServers\SharedModels\obj\Debug\SharedModels.dll
+D:\cours\middleware\middleware\middlewareServers\SharedModels\obj\Debug\SharedModels.pdb

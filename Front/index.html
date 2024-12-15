@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrideMap</title>
+    <link rel="icon" href="res/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="external/leaflet.css"/>
+    <script src="external/leaflet.js"></script>
+    <script src="scripts/script.js" type="module" defer></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="infos">
+        <div class="search">
+            <search-bar></search-bar>
+            <search-help></search-help>
+        </div>
+        <error-message></error-message>
+        <autocompleter-input></autocompleter-input>
+        <warning-card-list></warning-card-list>
+    </div>
+    
+    
+    <div class="main-content">
+        <list-instruction></list-instruction>
+        <instruction-component class="dir-bar"></instruction-component>
+    </div>
+
+    <div class="loader"></div>
+    <script src="components/search-bar/search-bar.js" defer></script>
+    <script src="components/search-help/search-help.js" defer></script>
+    <script src="components/instruction/instruction.js" type="module" defer></script>
+    <script src="components/autocompleter/autocompleter.js" defer></script>
+    <script src="components/error-message/error-message.js" defer></script>
+    <script src="components/info-card/info-card.js" defer></script>
+    <script src="components/warning-card-list/warning-card-list.js" defer></script>
+    <script src="components/list-instruction/list-instruction.js" type="module" defer></script>
+    <script src="external/jquery-1.7.2.min.js"></script>
+    <script src="external/stomp.js"></script>
+    <script src="scripts/activeMQHandler.js" type="module"></script>
+</body>
+</html>

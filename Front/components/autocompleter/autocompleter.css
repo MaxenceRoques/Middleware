@@ -1,0 +1,35 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+.autocompleter {
+    position: absolute;
+    width:100%;
+    z-index: 100;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    display: none;
+    .list{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        li{
+            padding: 0 0.5rem;
+            display: flex;
+            align-items: center;
+            height: 3rem;
+            width: 100%;
+            list-style: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            span{
+                margin-left: 0.5rem;
+            }
+
+            &:hover{
+                background-color: #D8CDDC;
+            }
+        }
+    }
+}

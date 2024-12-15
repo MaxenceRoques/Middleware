@@ -1,0 +1,102 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+.help{
+    position:relative;
+
+    .search-help{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #007BFF;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        cursor: pointer;
+
+        i{
+            color: white;
+        }
+    }
+
+    .help-content{
+        max-width: 75vw;
+        margin:0 1rem;
+        visibility: hidden;
+        animation: 'fadeIn 0.5s ease-in-out';
+        position: absolute;
+        top:0;
+        left:100%;
+        border-radius: 10px;
+        background-color: #fafafa;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        padding: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 20rem;
+        p{
+            margin:0;
+        }
+
+        .option{
+            cursor: pointer;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            font-size: 0.75rem;
+            display: grid;
+            align-items:center;
+            grid-template-columns: 1fr 3fr;
+            width: 100%;
+            background-color: #A2CBF6;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 0.5rem 0;
+
+
+            .illustration{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e9efff;
+                height: 100%;
+
+                i{
+                    font-size: 2rem;
+                }
+            }
+
+            p{
+                padding: 0.5rem;
+            }
+        }
+
+        .option:nth-child(2){
+            margin-bottom: 5%;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .help-content{
+        left:auto !important;
+        right:100%;
+    }
+}
