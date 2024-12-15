@@ -1,0 +1,12 @@
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\ProxyCacheServer.pdb
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\Newtonsoft.Json.dll
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\SharedModels.dll
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\SharedModels.pdb
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\Newtonsoft.Json.xml
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\obj\Debug\ProxyCacheServer.csproj.AssemblyReference.cache
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\obj\Debug\ProxyCacheServer.csproj.CoreCompileInputs.cache
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\obj\Debug\ProxyCac.86BCB654.Up2Date
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\obj\Debug\ProxyCacheServer.pdb
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\ProxyCacheServer.exe.config
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\bin\Debug\ProxyCacheServer.exe
+D:\cours\middleware\middleware\middlewareServers\ProxyCacheServer\obj\Debug\ProxyCacheServer.exe
